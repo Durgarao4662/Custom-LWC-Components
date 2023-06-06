@@ -1,0 +1,23 @@
+.notification-banner {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .notification-icon {
+    margin-right: 10px;
+  }
+  
+  .notification-message {
+    flex-grow: 1;
+  }
+  
+  .notification-close {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+  
